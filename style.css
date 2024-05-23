@@ -46,11 +46,6 @@ footer {
     padding: 10px;
 }
 
-@font-face {
-  font-family: Fredoka;
-  src: url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-}
-
 div {
   font-family: Fredoka;
 }

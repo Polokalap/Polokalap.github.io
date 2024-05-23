@@ -15,6 +15,7 @@ p {
 h3 {
     text-shadow: #0e0d0d;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -33,7 +34,7 @@ button {
 button:hover {
     background-color: #ffffff;
     color: #0e0d0d;
-    border: 2px solid #0e0d0d;
+    border: 2px solid #ffffff;
 }
 
 a {
@@ -44,8 +45,4 @@ a {
 footer {
     background-color: #161515;
     padding: 10px;
-}
-
-div {
-  font-family: Fredoka;
 }

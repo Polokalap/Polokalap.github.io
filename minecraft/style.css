@@ -15,6 +15,7 @@ p {
 h3 {
     text-shadow: #0e0d0d;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -23,8 +24,17 @@ header {
 }
 
 button {
-    background-color: rgb(19, 2, 78);
+    background-color: #0e0d0d;
     color: #ffffff;
+    padding: 15px 20px;
+    border: 2px solid #ffffff;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #0e0d0d;
+    border: 2px solid #ffffff;
 }
 
 a {
@@ -34,21 +44,5 @@ a {
 
 footer {
     background-color: #161515;
-}
-
-@font-face {
-    font-family: Fredoka;
-    src: url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-}
-
-div {
-  font-family: Fredoka;
-}
-div {
-  font-family: Fredoka;
-}
-
-nav p {
-    font-family: monospace;
-    background-color: #161515;
+    padding: 10px;
 }

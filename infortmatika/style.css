@@ -9,6 +9,7 @@ h1 {
 
 p {
     color: white;
+    font-family: sans-serif;
 }
 
 h3 {
@@ -42,6 +43,7 @@ footer {
   src: url(Fredoka.ttf);
 }
 
-div {
-  font-family: Fredoka;
+.content {
+    max-width: 600px;
+    margin: 20px;
 }

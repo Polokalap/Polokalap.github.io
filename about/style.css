@@ -1,0 +1,41 @@
+body {
+    background-color: #0e0d0d;
+}
+
+h1 {
+    font-family: Fredoka;
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-shadow: #0e0d0d;
+    color: white;
+}
+
+header {
+    background-color: #161515;
+}
+
+button {
+    background-color: rgb(19, 2, 78);
+    color: #ffffff;
+}
+
+a {
+    font-family: monospace;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #161515;
+}
+
+@font-face {
+    font-family: Fredoka;
+    src: url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+}

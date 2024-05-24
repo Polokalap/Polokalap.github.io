@@ -46,3 +46,14 @@ footer {
     background-color: #161515;
     padding: 10px;
 }
+
+.h3black h3{
+    background-color: #312f2f;
+    font-family: monospace;
+    display: inline;
+    border: #312f2f 2px solid;
+}
+
+.h3black p {
+    display: inline;
+}

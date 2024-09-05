@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.meno {
+    transition-duration: 0.4s;
+}
+
+.meno:hover {
+    text-shadow: 10px;
+}
+
+a {
+    color: rgb(204, 204, 204);
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration-line: none;
+    background-color: rgb(36, 36, 36);
+    font-size: x-large;
+    border: rgb(36, 36, 36) solid 2px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: white;
+    box-shadow: 5px;
+    background-color: rgb(32, 32, 32);
+    font-size: xx-large;
+    border: rgb(32, 32, 32) solid 2px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+}
+
+.secret {
+    filter: opacity(0);
+    transition-duration: 0.4s;
+}
+
+.secret:hover {
+    filter: opacity(0.1)
+}

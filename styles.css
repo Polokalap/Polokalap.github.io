@@ -2,6 +2,7 @@ body {
     background-color: rgb(15, 15, 15);
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 
 .meno {
@@ -32,7 +33,7 @@ a:hover {
     background-color: rgb(32, 32, 32);
     font-size: xx-large;
     border: rgb(32, 32, 32) solid 2px;
-    border-radius: 10px;
+    border-radius: 5px;
     border-width: 3px;
     border-right-width: 5px;
     border-left-width: 5px;
@@ -45,4 +46,9 @@ a:hover {
 
 .secret:hover {
     filter: opacity(0.1)
+}
+
+.info {
+    padding-left: 100px;
+    padding-right: 100px;
 }

@@ -49,6 +49,8 @@ a:hover {
 }
 
 .info {
-    padding-left: 100px;
-    padding-right: 100px;
+    position: fixed;
+    left: 300px;
+    right: 100px;
+    bottom: 300px;
 }

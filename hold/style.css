@@ -1,0 +1,63 @@
+
+/* Ne lopd a cssem amúgyis kurva szar */
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    transition-duration: 0.4s;
+    filter: blur(0.5px);
+}
+
+html:hover {
+    filter: blur(0px);
+}
+
+body {
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    font-size: 130%;
+}
+
+h1 {
+    font-family: Londrina Sketch;
+}
+
+.cigany {
+    position: relative;
+    top: 100px;
+    font-size: x-large;
+    transition-duration: 0.4s;
+}
+
+.cigany:hover {
+    font-size: xx-large;
+    top: 85px;
+}
+
+.mindenaminemcigany {
+    position: relative;
+    top: 150px;
+}
+
+h2 {
+    font-family: Poppins;
+}
+
+p {
+    font-family: Poppins;
+}
+
+.szoveg {
+    font-size: 75%;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.szoveg li {
+    font-size: 115%;
+    font-family: 'Courier New', Courier, monospace;
+}

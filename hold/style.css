@@ -53,11 +53,27 @@ p {
 
 .szoveg {
     font-size: 75%;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 .szoveg li {
     font-size: 115%;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+    border: 2px solid rgb(19, 19, 19);
+    padding: 5px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 166%;
 }
